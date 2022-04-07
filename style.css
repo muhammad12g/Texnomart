@@ -1,0 +1,347 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--bg-warning);
+    border-radius: 8px;
+}
+:root{
+    --bg-warning: #FBC100;
+}
+.nav_bottom{
+    width: 100%;
+    height: 34px;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: #fff;
+}
+.collection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:96%;
+    margin: auto;
+}
+.collection_h5{
+    font-size: 12px;
+    margin-top: 10px;
+}
+nav{
+    width: 100%;
+    height: 120px;
+    background: #f7f7f7;
+    display: flex;    
+}
+nav>img{
+    width: 250px;
+    margin-top: -50px;
+    margin-left: 25px;
+}
+.search_bar{
+    width: 550px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid var(--bg-warning);
+    margin-top: 20px;
+    margin-left: 45px;
+    border-radius: 5px;
+    display: flex;
+}
+.all_caterogy{
+    width: 120px;
+    height: 100%;
+    border-radius: 5px;
+    background: #f7f7f7;
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all_caterogy>i{
+margin: 0 5px;
+}
+.search_bar_2{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-indent: 8px;
+    width: 55%;
+}
+.speak_for{
+    transform: scale(.6);
+    margin-left: 60px;
+}
+.search_icon{
+    width: 50px;
+    border: none;
+    outline: none;
+    background: var(--bg-warning);
+}
+.welcome_item{
+    margin: 0 9px;
+}
+.welcome_item>img{
+    margin: auto;
+}
+.welcome_icon_4{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.welcome_item>h5{
+    font-size: 16px;
+    
+}
+.nav_collection{
+    width: 100%;
+    display: flex;
+    margin-top: 6%;
+    /* background: #000; */
+    margin-left: -1380px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #373F8D;
+}
+.nav_item:first-child{
+    text-transform: capitalize;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background: var(--bg-warning);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+.nav_item:first-child>img{
+    margin: 0 10px;
+}
+.carousel-control-prev-icon{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 4px #777;
+    z-index: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-control-next-icon{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 4px #777;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+article{
+    display: flex;
+    width: 85%;
+    height: auto;
+    /* background: #000; */
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+}
+.article_item{
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    background: #f7f7f7f7;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article_item>img{
+    width: 50px;
+}
+.article_item:nth-child(5){
+    width: 100px;
+}
+.arrow-right{
+   position: absolute;
+   top: 615px;
+}
+aside{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 250px;
+    height: 320px;
+    background: #fff;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: .5s;
+    -webkit-box-shadow: 2px 0px 2px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 2px 0px 2px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 2px 0px 2px 0px rgba(34, 60, 80, 0.2);
+}
+.box:hover{
+    box-shadow: 0 0 10px rgba(34, 60, 80, 0.2);
+    cursor: pointer;
+}
+.box>img{
+  width: 120px;
+  object-fit: cover;
+  margin: 20px 55px;
+}
+.box_text{
+    margin-left: 15px;
+}
+.two{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: var(--bg-warning);
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 900;
+}
+.btn>img{
+    margin: 0 8px;
+}
+.goodwel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.omma{
+    display: flex;
+    margin-left: 165px;
+    margin-top: 50px;
+}
+.omma>.box>img{
+    width: 180px;
+    margin-left: 40px;
+}
+.omma>.box{
+    height: 300px;
+}
+.three{
+    margin-left: 0;
+}
+.phone{
+    text-align: center;
+    margin-top: 100px;
+}
+.muddatli{
+    width: 80%;
+    height: 200px;
+    border: 1px solid rgb(231, 230, 230);
+    margin: 20px auto;
+    display: flex;
+}
+.muddatli_item{
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid rgb(231, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.muddatli_item>p{
+    color: #888;
+    text-align: center;
+    font-size: 12px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #333;
+    display: flex;
+}
+.Div1,.Div2,.Div3, .Div4{
+    width: 23%;
+    height: 56%;
+    margin: 15px 10px;
+    line-height: 3;
+}
+.fab{
+    margin: 0 5px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    background: #545454;
+    font-size: 24px;
+    padding: 7px;
+}
+.play_logo{
+    position: absolute;
+    top: 2930px;
+    left: 20px;
+}
+.four{
+    font-size: 24px;
+}
+.underline{
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.underline:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.DivText{
+    color: rgb(231, 230, 230);
+    margin-top: 350px;
+    width: 100%;
+    height: 120px;
+    margin-left: -1330px;
+    
+
+}
+.DivText>hr{
+    width: 90%;
+    margin-left: 35px;
+}
+.DivText>p{
+    width: 54%;
+    margin-left: 35px;
+}
+.cart{
+    width: 50px;
+    height: 30px;
+    margin: 0 2px;
+}
+.carts{
+    display: flex;
+    margin-left: 1050px;
+    margin-top: -15px;
+    
+}
